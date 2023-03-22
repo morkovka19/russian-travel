@@ -1,0 +1,9 @@
+.header__lang-links{
+    margin: 0;
+    padding: 0;
+    height: 52px;
+    width: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
