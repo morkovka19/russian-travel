@@ -5,14 +5,18 @@
     url(../../../vendor/fonts/Inter.ttf)format("ttf");
 }
 
-.header__lang-link{
-    font-family: "Inter";
+.lead__caption{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration: none;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 8px;
+
     color: #ffffff;
-    width: 30px;
-    height: 28px;
 }

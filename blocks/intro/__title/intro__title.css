@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../vendor/fonts/Inter-Bold.woff")format("woff"),
+    url("../../../vendor/fonts/Inter-Bold.woff2")format("woff2"),
+    url("../../../vendor/fonts/Inter-Bold.ttf")format("ttf");
+}
+
+.intro__title{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter-Bold";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 107%;
+    color: #ffffff;
+    margin-left: calc(100 / 1184 * 100%);
+}
