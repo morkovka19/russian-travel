@@ -10,7 +10,24 @@
     color: #FFFFFF;
     max-width: 360px;
     position: absolute;
-    top: calc(420/740*100%)
+    top: calc(420/740*100%);
+
+
+}
+@media screen and(max-width: 1280px){
+    .cover__subtitle{
+         top: calc(379/640*100%);
+         width: calc(360/1024*100%);
+    }
+    
+}
+
+@media screen and(max-width: 1024px){
+    .cover__subtitle{
+         top: calc(299/480*100%);
+         width: calc(360/768*100%);
+    }
+    
 }
 
 @media screen and (max-width: 768px){
