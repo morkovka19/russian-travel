@@ -2,9 +2,8 @@
     position: absolute;
     width: calc(6.99/1280*100%);
     height: calc(8.14/1280*100%);
-    background: #181A19;;
+    background-color: #181A19;;
     border-radius: 50%;
-    border: white;
 }
 
 @media screen and (max-width: 768px){
