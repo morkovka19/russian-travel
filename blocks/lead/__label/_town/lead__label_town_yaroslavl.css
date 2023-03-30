@@ -1,0 +1,15 @@
+.lead__label_town_yaroslavl{
+    top: calc(287.68/615*100%);
+    left: calc(279.26/984*100%);
+}
+
+@media screen and (max-width: 768px){
+    .lead__label_town_yaroslavl{
+        top: calc(95.18/200*100%);
+        left: calc(90.82/320*100%);
+        width: calc(23.94/320*100%);
+        height: calc(2.83/200*100%);
+        
+    }
+
+}

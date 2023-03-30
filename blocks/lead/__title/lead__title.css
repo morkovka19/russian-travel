@@ -1,21 +1,48 @@
-@font-face {
-    font-family: "Inter-Bold";
-    src: url("../../../vendor/fonts/Inter-Bold.woff")format("woff"),
-    url("../../../vendor/fonts/Inter-Bold.woff2")format("woff2"),
-    url("../../../vendor/fonts/Inter-Bold.ttf")format("ttf");
-}
+
 .lead__title{
     font-family: "Inter-Bold";
-    width: calc(720 / 984 * 100%);
+    max-width: 720px;
     margin: 0 auto;
     padding: 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 1.04;
+    line-height: 104%;
     text-align: center;
     color: #FFFFFF;
-    border: 1px solid red;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    
 }
+
+@media screen and (max-width: 1280px){
+    .lead__title{
+        width: calc(720/984*100%);
+        
+    }
+}
+
+/*@media screen and (max-width: 966px){
+    .lead__title{
+        width: calc(720/820*100%);
+    }
+}*/
+
+
+
+
+@media screen and (max-width: 1024px){
+    .lead__title{
+        width: calc(720/768*100%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead__title{
+        width: calc(288/320*100%);
+        font-size: 40px;
+        line-height: 110%;
+
+    }
+    
+}
+

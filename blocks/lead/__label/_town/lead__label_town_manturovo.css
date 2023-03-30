@@ -1,0 +1,14 @@
+.lead__label_town_manturovo{
+    top: calc(217.76/615*100%);
+    left: calc(362.8/984*100%);
+}
+
+@media screen and (max-width: 768px){
+    .lead__label_town_manturovo{
+        top: calc(72.44/200*100%);
+        left: calc(117.98/320*100%);
+        width: calc(24.53/320*100%);
+        height: calc(2.83/200*100%);
+    }
+    
+}

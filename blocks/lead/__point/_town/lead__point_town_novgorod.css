@@ -1,4 +1,4 @@
 .lead__point_town_novgorod{
-    top: 125.12px;
-    left: 122.76px;
+    top: calc(125.12/615*100%);
+    left: calc(122.76/984*100%);
 }

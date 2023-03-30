@@ -1,7 +1,16 @@
 .lead__point{
     position: absolute;
-    width: 6.99px;
-    height: 8.14px;
-    background: #4D5648;
+    width: calc(6.99/1280*100%);
+    height: calc(8.14/1280*100%);
+    background: #181A19;;
     border-radius: 50%;
+    border: white;
+}
+
+@media screen and (max-width: 768px){
+    .lead__point{
+        width: calc(2.27/320*100%);
+        height: calc(2.65/200*100%); 
+    }
+    
 }

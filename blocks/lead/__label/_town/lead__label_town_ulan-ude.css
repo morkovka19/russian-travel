@@ -1,0 +1,15 @@
+.lead__label_town_ulan-ude{
+    top: calc(267.37/615*100%);
+    left: calc(897.82/984*100%);
+}
+
+@media screen and (max-width: 768px){
+    .lead__label_town_ulan-ude{
+        top: calc(87.6/200*100%);
+        left: calc(291.97/320*100%);
+        width: calc(20.34/320*100%);
+        height: calc(3.46/200*100%);
+        
+    }
+
+}

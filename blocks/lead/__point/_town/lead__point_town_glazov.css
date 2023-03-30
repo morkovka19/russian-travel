@@ -1,4 +1,4 @@
 .lead__point_town_glazov{
-    top: 301.17px;
-    right: 445.59px;
+    top: calc(301.17/615*100%);
+    right: calc(445.59/984*100%);
 }

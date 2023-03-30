@@ -1,4 +1,4 @@
 .lead__point_town_perm{
-    top: 241.14px;
-    right: 412.4px;
+    top: calc(241.14/615*100%);
+    right: calc(412.4/984*100%);
 }

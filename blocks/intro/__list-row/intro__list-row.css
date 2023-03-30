@@ -1,9 +1,3 @@
-@font-face {
-    font-family: "Inter";
-    src: url("../../../vendor/fonts/Inter-Regular.woff")format("woff"),
-    url("../../../vendor/fonts/Inter-Regular.woff2")format("woff2"),
-    url("../../../vendor/fonts/Inter.ttf")format("ttf");
-}
 
 .intro__list-row{
     font-family: 'Inter';

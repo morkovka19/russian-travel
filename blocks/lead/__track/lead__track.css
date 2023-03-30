@@ -1,8 +1,22 @@
 .lead__track{
     position: absolute;
-    top: 128.61px;
-    left: 41.5px;
+    top: calc(128.61/615*100%);
+    left: calc(41.5/984*100%);
+    width: calc(886/984*100%);
     
 
     
 }
+
+@media screen and (max-width: 768px){
+    .lead__track{
+        width: calc(288.13/320*100%);
+        top: calc(41.83/200*100%);
+        left: calc(13.5/320*100%);
+        height: calc(73.04/200*100%);
+    }
+    
+}
+
+
+

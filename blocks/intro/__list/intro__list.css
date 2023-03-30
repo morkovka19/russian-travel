@@ -2,3 +2,21 @@
     margin-top: 33px;
     margin-left: calc(100 / 1184 * 100%);
 }
+
+@media screen and (max-width: 1024px) {
+    .intro__list{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .intro__list{
+        margin-left: 0;
+    }
+}

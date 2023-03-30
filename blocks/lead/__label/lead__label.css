@@ -1,0 +1,11 @@
+.lead__label{
+    position: absolute;
+}
+
+@media screen and (max-width: 768px){
+    .lead__label{
+        width: 20.34px;
+        height: 3.46px;
+    }
+    
+}

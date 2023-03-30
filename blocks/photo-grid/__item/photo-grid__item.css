@@ -1,6 +1,15 @@
 .photo-grid__item{
     margin: 0;
     padding: 0;
-    min-width: 284px;
-    min-height: 213px;
+    max-width: 100%;
+    max-height: 213px;
 }
+
+@media screen and (max-width: 768px){
+    .photo-grid__item{
+        min-height: 216px;
+        
+    }
+    
+}
+

@@ -1,0 +1,22 @@
+.lead__background{
+    object-fit: contain;
+    margin: 0 auto;
+    max-width: 984px;
+    max-height: 615px;
+}
+
+@media screen and (max-width: 1280px){
+    .lead__background{
+        width:100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .lead__background{
+        width: 100%;
+    }
+    
+}
+

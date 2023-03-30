@@ -1,4 +1,4 @@
 .lead__point_town_yaroslavl{
-    top: 293.03px;
-    left: 263.35px;
+    top: calc(293.03/615*100%);
+    left: calc(263.35/984*100%);
 }

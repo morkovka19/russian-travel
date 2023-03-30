@@ -1,0 +1,16 @@
+.lead__label_town_kotelnich{
+    top: calc(250.39/615*100%);
+    left: calc(415.31/984*100%);
+}
+
+@media screen and (max-width: 768px){
+    .lead__label_town_kotelnich{
+        top: calc(83.05/200*100%);
+        left: calc(135.06/320*100%);
+        width: calc(27.45/320*100%);
+        height: calc(2.83/200*100%);
+    }
+}
+
+
+    
