@@ -7,8 +7,7 @@
     justify-content: space-between;
     position: relative;
     top: 28px;
-    left: calc(48/1280*100%);
-    left: auto;
+    /*left: calc(48/1280*100%);*/
     
     
 
@@ -23,9 +22,9 @@
 @media screen and (max-width: 1023px){
     .header{
         width: calc(928/1024*100%);
-        left: 24px;
+
         height: 42px;
-        right: 24px;
+
         
     }
 }
@@ -33,9 +32,9 @@
     .header{
         max-width: 720px;
         width: calc(288/320*100%);
-        left: 16px;
+
         top: 16px;
-        right: 16px;
+
        
 
     }
