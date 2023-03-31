@@ -4,7 +4,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .root__container-margin-top{
         margin: 64px auto 0;
 
@@ -12,7 +12,7 @@
     
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     .root__container-margin-top{
         margin: 88px auto 0;
     }

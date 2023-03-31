@@ -10,14 +10,14 @@
     
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .place__text{
         max-width: 456px;
     }
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 .place__text{
     width: 100%;
     box-sizing: border-box;

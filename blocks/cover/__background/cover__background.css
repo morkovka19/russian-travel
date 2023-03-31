@@ -10,20 +10,9 @@
 
 }
 
-@media screen and (max-width: 1280px){
-    .cover__background{
-        width: 100%;
-    }
-    
-}
 
-@media screen and (max-width: 768px){
-    .cover__background{
-        width: 100%;
-        
-    }
-    
-}
+
+
 
 
 

@@ -1,7 +1,9 @@
 
 .intro__text{
     padding: 0;
-    margin: 40px 0 0 0;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 100px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -12,12 +14,12 @@
     margin-left: calc(100 / 1184 * 100%);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .intro__text{
-        margin-left: 0;
+        margin-left: calc(100 / 1184 * 100%);
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .intro__text{
         margin-left: 0;
     }

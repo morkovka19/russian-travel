@@ -9,12 +9,11 @@
     text-align: center;
     color: #FFFFFF;
     max-width: 360px;
-    position: absolute;
     top: calc(420/740*100%);
 
 
 }
-@media screen and(max-width: 1280px){
+@media screen and(max-width: 1279px){
     .cover__subtitle{
          top: calc(379/640*100%);
          width: calc(360/1024*100%);
@@ -22,20 +21,23 @@
     
 }
 
-@media screen and(max-width: 1024px){
+@media screen and(max-width: 1023px){
     .cover__subtitle{
          top: calc(299/480*100%);
          width: calc(360/768*100%);
+         box-sizing: border-box;
     }
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .cover__subtitle{
         font-size: 14px;
         line-height: 114%;
         width: calc(288/320*100%);
         top: calc(119/200*100%);
+        box-sizing: border-box;
+        
     }
     
 }

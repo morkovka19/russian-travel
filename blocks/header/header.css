@@ -5,25 +5,34 @@
     height: 52px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     top: 28px;
-    left: 48px;
-    right: 48px;
+    left: calc(48/1280*100%);
+    left: auto;
+    
+    
 
 }
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1279px){
     .header{
-        max-width: 928px;
+        width: calc(928/1024*100%);
+    }
+    
+}
+@media screen and (max-width: 1023px){
+    .header{
+        width: calc(928/1024*100%px);
         left: 24px;
         height: 42px;
         right: 24px;
         
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .header{
         max-width: 720px;
-        min-width: 288;
+        width: calc(288/320*100%);
         left: 16px;
         top: 16px;
         right: 16px;

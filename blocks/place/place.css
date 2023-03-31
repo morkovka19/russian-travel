@@ -9,7 +9,7 @@
     
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
     .place{
         max-width: 928px;
         grid-template-columns: minmax(330px ,440px) minmax(333px, 440px);
@@ -29,7 +29,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place{
         align-items: center;
         justify-content: start;
