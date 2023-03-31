@@ -22,7 +22,7 @@
 }
 @media screen and (max-width: 1023px){
     .header{
-        width: calc(928/1024*100%px);
+        width: calc(928/1024*100%);
         left: 24px;
         height: 42px;
         right: 24px;
