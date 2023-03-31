@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1279px){
     .lead__group{
-        width: calc(883.76/928*100%)
+        width: calc(883.76/928*100%);
     }
     
     
