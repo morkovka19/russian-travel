@@ -1,4 +1,3 @@
-
 .intro__text{
     padding: 0;
     margin: 0;
@@ -15,17 +14,9 @@
 
 @media screen and (max-width: 1279px) {
     .intro__text{
-        margin-left: calc(100 / 1184 * 100%);
-    }
-}
-@media screen and (max-width: 767px) {
-    .intro__text{
         margin-left: 0;
     }
 }
-@media screen and (max-width: 1024px) {
-    .intro__text{
-        margin-left: 0;
-    }
-}
+
+
 

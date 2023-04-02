@@ -5,30 +5,25 @@
     padding: 0;
     gap: 23px;
     overflow-wrap: break-word;
-   
-
-    
 }
 
 @media screen and (max-width: 1023px) {
     .place__text{
         max-width: 456px;
     }
-    
 }
 
 @media screen and (max-width: 767px){
-.place__text{
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0 auto;
-}    
+    .place__text{
+        width: calc(288/320*100%);
+        box-sizing: border-box;
+        margin: 0 auto;
+    }    
 }
 
 @media screen and (max-width: 470px){
     .place__text{
-        width: 100%;
-        box-sizing: border-box;
         padding-left: calc(16/320*100%);
+        margin: 0;
     }    
-    }
+}

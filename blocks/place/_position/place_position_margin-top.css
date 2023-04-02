@@ -1,4 +1,4 @@
-.place_margin-top{
+.place_position_margin-top{
     margin-top: calc(33/1280*100%);
 }
 
@@ -6,10 +6,10 @@
     .place_margin-top{
         margin-top: calc(73/768*100%);
     }
-    
 }
+
 @media screen  and (max-width: 769px){
-.place_margin-top{
-    margin: 0;
-}    
+    .place_margin-top{
+        margin: 0;
+    }    
 }

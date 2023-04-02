@@ -1,7 +1,7 @@
 .photo-grid__item{
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
     max-height: 213px;
 }
 
@@ -9,16 +9,21 @@
 @media screen and (max-width: 1279px){
     .photo-grid__item{
         min-height: 225px;
-        
     }
-    
+} 
+
+@media screen and (max-width: 1023px){
+    .photo-grid__item{
+        min-height: 264px;
+    }
 } 
 
 @media screen and (max-width: 767px){
     .photo-grid__item{
         min-height: 216px;
-        
+        /*width: calc(288/320*100%);*/
     }
-    
 }
+
+
 

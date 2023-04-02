@@ -4,9 +4,6 @@
     grid-template-columns: minmax(441px, 460px) minmax(484px, 457px);
     column-gap: 40px;
     row-gap: 40px;
-    
-    
-    
 }
 
 @media screen and (max-width: 1279px){
@@ -15,19 +12,14 @@
         grid-template-columns: minmax(330px ,440px) minmax(333px, 440px);
         column-gap: 32px; 
     }
-    
 }
 
 @media screen and (max-width: 1024px) {
     .place{
         max-width: 100%;
-        grid-template-columns: minmax(330px ,440px) minmax(333px, 440px);
         column-gap: 28px;
     }
-    
 }
-
-
 
 @media screen and (max-width: 767px) {
     .place{
@@ -37,5 +29,5 @@
         grid-template-rows: 35px 68px minmax(320px 767px) min-content;
         column-gap: 0;
         row-gap: 32px;
-}    
+    }    
 }

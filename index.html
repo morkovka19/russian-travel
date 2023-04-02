@@ -12,19 +12,18 @@
 <body class="root">
     <header class="header root__container-center">
         <img class="header__logo" src="images/icon/logo.svg" alt="логотип Россия">
-        <div class="header__lang-links">
-            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-            <a class="header__lang-link" href="#">En</a>
-        </div>
+        <ul class="header__lang-links">
+            <li class="header__link-row"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+            <li class="header__link-row"><a class="header__lang-link" href="#">En</a></li>
+        </ul>
     </header>
     <main class="main">
         <section class="lead root__container-center">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <div class="lead__image">
-                <img class="lead__background" src="images/kalegin-michail-179870-unsplash.png"
-                    alt="картинка девушки в поезде">
-                <img class="lead__group" src="images/icon/Group4-min.svg" alt="картинка пути">  
+                <img class="lead__background" src="images/__image.png"
+                    alt="картинка девушки в поезде">  
             </div>
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
@@ -39,42 +38,35 @@
                 — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
                 километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
-            <div class="intro__list">
-                <p class="intro__list-row">
-                    Часовых поясов <span class="intro__span">11</span>
-                </p>
-                <p class="intro__list-row">
-                    Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span>
-                </p>
-                <p class="intro__list-row">
-                    Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span>
-                </p>
-                <p class="intro__list-row">
-                    Природных заповедников <span class="intro__span">105</span>
-                </p>
-                <p class="intro__list-row">
-                    Аэропортов <span class="intro__span">241</span>
-                </p>
-            </div>
-            <ul class="photo-grid intro__grid">
-                <li class="photo-grid__item"><img src="images/__item(1).png" class="photo-grid__image" alt="окно"></li>
-                <li class="photo-grid__item"><img src="images/__item(2).png" alt="горы" class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(3).png" alt="поле" class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(4).png" alt="лес в тумане"
-                        class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(5).png" alt="машина на льду"
-                        class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(6).png" alt="берег озера"
-                        class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(7).png" alt="горы" class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(8).png" alt="берег со знаком"
-                        class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(9).png" alt="холмы" class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(10).png" alt="гора" class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(11).png" alt="утес" class="photo-grid__image"></li>
-                <li class="photo-grid__item"><img src="images/__item(12).png" alt="горы в тумане"
-                        class="photo-grid__image"></li>
+            <ul class="intro__list">
+                <li class="intro__list-row">Часовых поясов <span class="intro__span">11</span></li>
+                <li class="intro__list-row">Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></li>
+                <li class="intro__list-row">Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span></li>
+                <li class="intro__list-row">Природных заповедников <span class="intro__span">105</span></li>
+                <li class="intro__list-row">Аэропортов <span class="intro__span">241</span></li>
             </ul>
+            </section>
+            <section class="photo-grid root__container-margin-top">
+                <ul class="photo-grid__list">
+                    <li class="photo-grid__item"><img src="images/__item(1).png" class="photo-grid__image" alt="окно"></li>
+                    <li class="photo-grid__item"><img src="images/__item(2).png" alt="горы" class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(3).png" alt="поле" class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(4).png" alt="лес в тумане"
+                            class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(5).png" alt="машина на льду"
+                            class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(6).png" alt="берег озера"
+                            class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(7).png" alt="горы" class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(8).png" alt="берег со знаком"
+                            class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(9).png" alt="холмы" class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(10).png" alt="гора" class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(11).png" alt="утес" class="photo-grid__image"></li>
+                    <li class="photo-grid__item"><img src="images/__item(12).png" alt="горы в тумане"
+                            class="photo-grid__image"></li>
+                </ul>
+            </section>
         </section>
         <section class="places root__container-margin-top">
             <div class="place">
@@ -103,7 +95,7 @@
 
 
 
-            <div class="place place_margin-top">
+            <div class="place place_position_margin-top">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
@@ -129,7 +121,7 @@
 
 
 
-            <div class="place place_margin-top">
+            <div class="place place_position_margin-top">
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
@@ -153,7 +145,7 @@
             </div>
 
 
-            <div class="place place_margin-top">
+            <div class="place place_position_margin-top">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
@@ -178,7 +170,7 @@
 
 
 
-            <div class="place place_margin-top">
+            <div class="place place_position_margin-top">
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
@@ -207,11 +199,11 @@
         </section>
         <section class="cover root__container-margin-top">
             
-            <div class="cover__item">
+            <a class="cover__item" href="#">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-                    электричках.</h3>
-            </div>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+                    электричках.</p>
+            </a>
         </section>
 
 
@@ -225,7 +217,7 @@
             <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
             <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
         </nav>
-        <div class="footer__copyright">&copy; 2023. Шаповалова Полина</div>
+        <p class="footer__copyright">&copy; 2023. Шаповалова Полина</p>
 
     </footer>
 

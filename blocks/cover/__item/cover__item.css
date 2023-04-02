@@ -10,7 +10,7 @@
     transition: background-color linear .2s;
     gap: 32px;
     box-sizing: border-box;
-    
+    text-decoration: none;
 }
 
 .cover__item:hover{
@@ -22,12 +22,4 @@
         gap: 16px;
         padding: 0;
     }
-    
-}
-
-@media screen and (max-width: 1279px){
-    .cover__item{
-        width: 100%;
-    }
-    
 }
