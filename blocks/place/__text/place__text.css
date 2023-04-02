@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    gap: 23px;
+    gap: 25px;
     overflow-wrap: break-word;
 }
 
@@ -24,6 +24,7 @@
 @media screen and (max-width: 470px){
     .place__text{
         padding-left: calc(16/320*100%);
+        width: calc(288/320*100% + 3.9%);
         margin: 0;
     }    
 }

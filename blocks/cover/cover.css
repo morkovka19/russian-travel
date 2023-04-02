@@ -1,7 +1,6 @@
 .cover{
     background-image: url("../../images/__background.png");
     display: flex;
-    font-family: "Inter";
     font-weight: 400;
     background-repeat: no-repeat;
     justify-content: center;

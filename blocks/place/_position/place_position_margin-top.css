@@ -2,13 +2,19 @@
     margin-top: calc(33/1280*100%);
 }
 
+@media screen and (max-width: 1023px){
+    .place_margin-top{
+        margin-top: -5px;
+    }
+}
+
 @media screen and (max-width: 768px){
     .place_margin-top{
         margin-top: calc(73/768*100%);
     }
 }
 
-@media screen  and (max-width: 769px){
+@media screen  and (max-width: 767px){
     .place_margin-top{
         margin: 0;
     }    

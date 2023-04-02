@@ -6,20 +6,29 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+    margin-top: -4px;
 }
 
 @media screen and (max-width: 1279px) {
     .place__title{
-        font-size: 42px;
         line-height: 110%;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
+    .place__title{
+        font-size: 42px;
+        line-height: 110%;
+        padding-right: 10px;
+    }
+}
+
+@media screen and   (max-width: 767px) {
     .place__title{
         font-size: 32px;
-        line-height: 109%;
+        line-height: 110%;
         margin: 0 auto;
+        padding-right: 10px;
     }
 }
 
