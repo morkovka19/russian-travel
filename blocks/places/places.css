@@ -2,22 +2,21 @@
     max-width: 984px;
     display: grid;
     grid-template-columns: 1;
-    row-gap: 64px;
+    row-gap: 84px;
 }
 
 @media screen and (max-width: 1279px) {
     .places{
         width: calc(928/1024*100%);
+        row-gap: 81px;
     }
-    
 }
 
 @media screen and (max-width: 1023px) {
     .places{
         width: calc(720/768*100%);
-        row-gap: 75px;
+        row-gap: 73px;
     }
-    
 }
 
 @media screen and (max-width: 767px) {
@@ -25,5 +24,4 @@
         width: 100%;
         row-gap: 49px;
     }
-    
 }

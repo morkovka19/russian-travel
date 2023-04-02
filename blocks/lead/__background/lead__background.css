@@ -1,9 +1,21 @@
 .lead__background{
+    padding: 0;
     margin: 0 auto;
-    grid-column-start: 1;
-    grid-row-start: 1;
+    margin-top: 56px;
     width: 100%;
-    position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__background{
+        margin: 45px 0 auto;
+        max-height: 962px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .lead__background{
+        margin-top: 40px;
+    }
 }
 
 

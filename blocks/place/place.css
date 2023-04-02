@@ -19,8 +19,6 @@
         max-width: 720px;
         column-gap: 28px;
         grid-template-columns: minmax(320px, 340px) minmax(333px, 352px);
-        
-        
     }
 }
 

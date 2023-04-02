@@ -18,7 +18,6 @@
     padding-top: calc(740/1184*100%);
 }
 
-
 @media screen and (max-width: 1279px) {
     .cover{
         width: 100%;
