@@ -27,9 +27,8 @@
         align-items: center;
         justify-content: start;
         grid-template-columns: 1fr;
-        grid-template-rows: 35px 68px minmax(320px 767px) min-content;
+        grid-template-rows: 35px 46px minmax(320px, 767px) min-content;
         column-gap: 0;
         row-gap: 32px;
-        width: 100%;
     }    
 }
